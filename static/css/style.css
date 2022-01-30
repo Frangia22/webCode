@@ -1,0 +1,36 @@
+/* Varibles */
+:root {
+    --bluesapphire: #05668D;
+    --metallicseaweed: #028090;
+    --persiangreen: #00A896;
+    --mountainmeadow: #02C39A;
+    --palespringbud: #F0F3BD;
+}
+
+/* Generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+.img-footer {
+    width: 2em;
+}
+.bg-sapphire {
+    background-color: var(--bluesapphire);
+}
+.bg-persian {
+    background-color: var(--persiangreen);
+}
+.bg-mountain {
+    background-color: var(--mountainmeadow);
+}
+.bg-pale {
+    background-color: var(--palespringbud);
+}
+.bg-metallic {
+    background-color: var(--metallicseaweed);    
+}
